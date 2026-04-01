@@ -130,7 +130,7 @@ pub enum ActivityDisplayType {
     /// Shows state field as display
     State = 2,
     /// Shows details field as display
-    Watching = 3,
+    Details = 3,
 }
 
 impl<'a> Activity<'a> {
