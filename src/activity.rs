@@ -128,9 +128,9 @@ pub enum ActivityDisplayType {
     /// Shows app name as display
     Name = 0,
     /// Shows state field as display
-    State = 2,
+    State = 1,
     /// Shows details field as display
-    Details = 3,
+    Details = 2,
 }
 
 impl<'a> Activity<'a> {
